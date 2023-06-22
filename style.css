@@ -13,7 +13,7 @@ a {
     text-decoration: none;
     margin-left: 120px;
 }
-nav.navHead a {
+nav .navHead a {
     color: black;
 }
 .navButton {
@@ -36,6 +36,9 @@ nav.navHead a {
     color: white;
     border-radius: 8px;
     border: 1px solid  #0065FE;
+}
+.subHeadButton {
+    color: #0065FE;
 }
 .subHeading span {
     color: #0065FE;
