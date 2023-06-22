@@ -1,4 +1,12 @@
 
+  @font-face {
+    font-family : "Gilroy";
+    src: url("assets/Gilroy-Regular.ttf")
+  }
+  body {
+    font-family : "Gilroy";
+    margin: 100px;
+  } 
 /* Nav starts */
 nav {
     display: flex;
@@ -11,31 +19,43 @@ nav .nav3 a{
 }
 a {
     text-decoration: none;
-    margin-left: 120px;
+    margin-left: 70px;
 }
 nav .navHead a {
     color: black;
+}
+nav #myUrl {
+    color : #0065FE;
 }
 .navButton {
     margin-left: 120px;
     background-color:  #0065FE;
     color: white;
-    border-radius: 8px;
+    border-radius: 20px;
     border: 1px solid  #0065FE;
+    padding: 10px 30px;
+}
+.feature img {
+    margin-top: 5px;
 }
 /* Nav ends */
 
 
 
-.hero_section {
+.heroSection {
     position: relative;
     text-align: center;
+}
+
+.heroSection .subTopic {
+    color: #0065FE;
 }
 .headButton {
     background-color: #0065FE;
     color: white;
-    border-radius: 8px;
+    border-radius: 20px;
     border: 1px solid  #0065FE;
+    padding: 10px 30px;
 }
 .subHeadButton {
     color: #0065FE;
@@ -46,11 +66,11 @@ nav .navHead a {
 .subHeading {
     display: flex;
 }
-.subHeadingContent {
+/* .subHeadingContent {
   margin-left: 150px;
-}
+} */
 .subHeadingImage {
-    margin-left: 600px;
+    margin-left: 300px;
 }
 .firstHeading h1 span {
     color: #0065FE;
