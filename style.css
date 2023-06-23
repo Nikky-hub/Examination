@@ -40,15 +40,22 @@ nav #myUrl {
 
 /* Nav ends */
 
-
-
 .heroSection {
     position: relative;
     text-align: center;
 }
-
+.heroSection h1 {
+    font-size: 40px;
+}
 .heroSection .subTopic {
     color: #0065FE;
+    position: relative;
+}
+.subTopic img {
+    position:absolute;
+    bottom: -17px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .headButton {
     background-color: #0065FE;
@@ -78,7 +85,21 @@ nav #myUrl {
 }
 .firstHeadingPage {
     display: flex;
-    margin-top: 100px;
+    justify-content:left;
+    margin-top: 50px;
+    
+}
+.firstHeading p {
+    width: 400px;
+    height: 300px;
+    margin-right: 40px;
+}
+/* .subTopic_2  {
+    margin-right: 40px;
+} */
+
+.subTopic_3 {
+    margin-left: 100px;
 }
 .secondHeading {
     display: flex;
@@ -87,7 +108,8 @@ nav #myUrl {
 }
 .secondHeading span{ 
     color: #0065FE;
-}
+} 
+
 .pricingSection {
     display: flex;
     justify-content: center;
@@ -105,68 +127,151 @@ nav #myUrl {
 .pricingButton #first {
     color: #0065FE;
 }
+.pricingSection{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+.price_1, .price_3 {
+    border: 1px solid #0065FE;
+    border-radius: 10px;
+    width: 350px;
+    height:400px
+    
+}
+.price_2 {
+    border: 1px solid #0065FE;
+    background-color: #20344c;
+    color: white;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    /* margin: 20px 100px; */
+}
+
 .pricingButton #first {
     color:white;
 }
-.thirdHeading p {
-    color: #0065FE;
-}
+
 .thirdHeading {
+    background-color: #20344c;
+    height: 500px;
+    padding-top: 50px;
+    margin: auto;
     box-sizing: border-box;
     margin-top: 50px;
-    border: 1px solid #0065FE; 
-    border-radius: 15px;
-    width: 50%;
-    height: 50vh;
-    padding : 40px 50px;  
+    padding : 40px 50px;
+    background-color: #20344c; 
+   
 }
 
 .thirdHeading #first{
-/* border-radius: 10px;
+border-radius: 10px;
 border: 1px solid #0065FE;
+color:#0065FE;
 margin-bottom: 30px;
 padding: 15px 10px;
-width: 400px; */
+width: 450px;
 }
 
 .thirdHeading #second{
-    /* border-radius: 10px;
+    border-radius: 10px;
     border: 1px solid #0065FE;
-    width: 100px;
+    width: 200px;
     padding:15px 10px;
-    margin-right: 20px; */
+    margin-right: 20px;
+    color: #0065FE;
     }
 
 .thirdHeading #third{
-    /* border-radius: 10px;
+    border-radius: 10px;
     border: 1px solid #0065FE;
-    width: 100px;
-    padding:10px 30px;
-    margin-bottom: 30px; */
+    width: 200px;
+    padding:15px 10px;
+    margin-bottom: 30px;
     }
+.trim{
+    border-radius: 30px;
+    border: 1px solid #0065FE;
+    background-color:#0065FE;
+    color: white;
+    padding: 15px 10px;
+    width:480px;
+}
 
 .thirdHeading p span {
     font-weight: bolder;
 }
+
+.form{
+    border: 1px solid white;
+    border-radius: 10px;
+    /* box-sizing: border-box; */
+    align-content: center;
+    background-color: white;
+    height: 350px;
+}
+
+.forthHeading {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+.question {
+    position: absolute;
+    top: 200px;
+    top:60%;
+    transform: translateY(-100%);
+
+}
+
+.thirdHeading p  {
+    color: #0065FE;
+}
+
+/* .forthHeading {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+} */
+
+
 .fifthHeading {
     /* display: flex; */
     justify-content: center;
     text-align: center;
+    background-color: #20344c;
+    height: 200px;
+    padding-top: 50px;
     /* color: white; */
 
+}
+
+.fifthHeading h1 {
+    color: white;
+}
+.revButton{
+    background-color: #0065FE;
+    border: 1px solid  #0065FE;
+    border-radius: 20px;
+    color: white;
+    padding : 10px 30px;
 }
 .fifthHeading #startedButton {
     border-radius: 8px;
     /* border: 1px solid #0065FE; */
     /* background-color: #0065FE; */
     color: white;
-}
+} 
 
 .sixHeading {
     display: flex;
 }
-/* .footerItem {
-    display: flex;
-    justify-content: center;
+.footerItemsWrapper{
+    display:flex;
+    justify-content:center;
     align-items: center;
-} */
+    margin-left: 100px;
+}
