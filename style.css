@@ -5,7 +5,7 @@
   }
   body {
     font-family : "Gilroy";
-    margin: 0px 100px;
+    /* margin: 0px 100px; */
   } 
 /* Nav starts */
 nav {
@@ -74,9 +74,6 @@ nav #myUrl {
     display: flex;
     margin-top: 50px;
 }
-/* .subHeadingContent {
-  margin-left: 150px;
-} */
 .subHeadingImage {
     margin-left: 200px;
 }
@@ -109,31 +106,21 @@ nav #myUrl {
 .secondHeading span{ 
     color: #0065FE;
 } 
-
 .pricingSection {
-    display: flex;
-    justify-content: center;
-    text-align: center;  
-}
-.pricingSection #price {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.pricingButton #price {
-    border: 1px solid #0065FE;
-    border-radius: 8px;
+ul {
+    list-style: none;
 }
-.pricingButton #first {
-    color: #0065FE;
-}
+
 .pricingSection{
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
 
-
-}
 .price_1, .price_3 {
     border: 1px solid #0065FE;
     border-radius: 10px;
@@ -148,11 +135,30 @@ nav #myUrl {
     width: 350px;
     height: 500px;
     border-radius: 10px;
-    /* margin: 20px 100px; */
 }
 
 .pricingButton #first {
     color:white;
+}
+
+.priceButton {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#first , #second {
+    border : 1px solid #0065FE;
+    border-radius: 25px;
+    padding : 10px 30px;
+}
+.priceButton #first {
+    margin-right: 20px;
+    color:#0065FE;
+}
+.priceButton #second {
+    background-color: #0065FE;
+    color: white;
 }
 
 .thirdHeading {
@@ -164,13 +170,17 @@ nav #myUrl {
     margin-top: 50px;
     padding : 40px 50px;
     background-color: #20344c; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
    
 }
 
 .thirdHeading #first{
-border-radius: 10px;
+/* border-radius: 10px;
 border: 1px solid #0065FE;
-color:#0065FE;
+color:#0065FE; */
 margin-bottom: 30px;
 padding: 15px 10px;
 width: 450px;
@@ -201,6 +211,11 @@ width: 450px;
     width:480px;
 }
 
+.thirdHeading p  {
+    color: #0065FE;
+    text-align: center;
+}
+
 .thirdHeading p span {
     font-weight: bolder;
 }
@@ -208,16 +223,14 @@ width: 450px;
 .form{
     border: 1px solid white;
     border-radius: 10px;
-    /* box-sizing: border-box; */
-    align-content: center;
     background-color: white;
-    height: 350px;
+    height: 300px;
+    padding: 30px 30px;
+    
 }
 
 .forthHeading {
     position: relative;
-    text-align: center;
-    margin-top: 50px;
 }
 .question {
     position: absolute;
@@ -226,27 +239,14 @@ width: 450px;
     transform: translateY(-100%);
 
 }
-
-.thirdHeading p  {
-    color: #0065FE;
-}
-
-/* .forthHeading {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-} */
-
-
 .fifthHeading {
-    /* display: flex; */
     justify-content: center;
     text-align: center;
     background-color: #20344c;
-    height: 200px;
+    height: 600px;
     padding-top: 50px;
-    /* color: white; */
-
+    position: relative;
+    text-align: center;
 }
 
 .fifthHeading h1 {
@@ -261,10 +261,12 @@ width: 450px;
 }
 .fifthHeading #startedButton {
     border-radius: 8px;
-    /* border: 1px solid #0065FE; */
-    /* background-color: #0065FE; */
     color: white;
 } 
+.fifthImg {
+    position: absolute;
+    size: 50px;
+}
 
 .sixHeading {
     display: flex;
