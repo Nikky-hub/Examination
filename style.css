@@ -5,7 +5,7 @@
   }
   body {
     font-family : "Gilroy";
-    /* margin: 0px 100px; */
+    margin: 0px 100px;
   } 
 /* Nav starts */
 nav {
@@ -113,6 +113,7 @@ nav #myUrl {
 }
 ul {
     list-style: none;
+    list-style-position: outside;
 }
 
 .pricingSection{
@@ -231,6 +232,7 @@ width: 450px;
 
 .forthHeading {
     position: relative;
+    margin-bottom: 40px;
 }
 .question {
     position: absolute;
@@ -271,9 +273,15 @@ width: 450px;
 .sixHeading {
     display: flex;
 }
+.footerItems{
+    border: 1px solid red;
+}
 .footerItemsWrapper{
     display:flex;
     justify-content:center;
     align-items: center;
     margin-left: 100px;
+}
+.foooter_2 {
+    padding-left: 80px;
 }
