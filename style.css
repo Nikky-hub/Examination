@@ -81,19 +81,18 @@ nav #myUrl {
     color: #0065FE;
 }
 .firstHeadingPage {
-    display: flex;
-    justify-content:left;
-    margin-top: 50px;
-    
+    display:flex;
+    justify-content:center;
+    align-items: center;
 }
-.firstHeading p {
-    width: 400px;
-    height: 300px;
-    margin-right: 40px;
+
+.subfirstHeading {
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-left: 100px;
 }
-/* .subTopic_2  {
-    margin-right: 40px;
-} */
 
 .subTopic_3 {
     margin-left: 100px;
@@ -109,24 +108,30 @@ nav #myUrl {
 .pricingSection {
     display: flex;
     justify-content: center;
-    text-align: center;
+    margin: 20px;
 }
+
 ul {
     list-style: none;
-    list-style-position: outside;
+    
 }
 
 .pricingSection{
     display: flex;
     align-items: center;
     justify-content: center;
- }
+} 
 
 .price_1, .price_3 {
     border: 1px solid #0065FE;
     border-radius: 10px;
     width: 350px;
-    height:400px
+    height:400px;
+    padding-top: 50px;   
+}
+.price_1 p, .price_2 p, .price_3 p,
+.price_1 h1, .price_2 h1, .price_3 h1{
+    padding-left: 30px;
     
 }
 .price_2 {
@@ -136,6 +141,7 @@ ul {
     width: 350px;
     height: 500px;
     border-radius: 10px;
+    padding-top: 50px;  
 }
 
 .pricingButton #first {
@@ -179,9 +185,6 @@ ul {
 }
 
 .thirdHeading #first{
-/* border-radius: 10px;
-border: 1px solid #0065FE;
-color:#0065FE; */
 margin-bottom: 30px;
 padding: 15px 10px;
 width: 450px;
@@ -234,25 +237,42 @@ width: 450px;
     position: relative;
     margin-bottom: 40px;
 }
-.question {
+#forthimg_1{
     position: absolute;
-    top: 200px;
-    top:60%;
-    transform: translateY(-100%);
-
+    top: Opx;
+    left:0%;
 }
+#forthimg_2{
+    position: absolute;
+    bottom: Opx;
+    right:0%;
+}
+.question h1{
+    text-align: center;
+    font-size: bolder;
+}
+
 .fifthHeading {
+    display: flex;
     justify-content: center;
-    text-align: center;
     background-color: #20344c;
-    height: 600px;
-    padding-top: 50px;
+    width: 100%;
+    height: 300px;
     position: relative;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
 }
 
 .fifthHeading h1 {
     color: white;
+    text-align: center;
+    width: 100%;
+}
+.fifthHeadingButton {
+    width: 100%;
+    text-align: center;
 }
 .revButton{
     background-color: #0065FE;
@@ -265,23 +285,36 @@ width: 450px;
     border-radius: 8px;
     color: white;
 } 
-.fifthImg {
+#fifthImg_1 {
     position: absolute;
-    size: 50px;
+    top: Opx;
+    left:0%;
+
+
+}
+#fifthImg_2 {
+    position: absolute;
+    bottom: 0px;
+    right:0%;
+    
+
 }
 
 .sixHeading {
     display: flex;
 }
-.footerItems{
-    border: 1px solid red;
-}
+
 .footerItemsWrapper{
     display:flex;
-    justify-content:center;
-    align-items: center;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
     margin-left: 100px;
+    
+    
 }
-.foooter_2 {
-    padding-left: 80px;
+
+.footerItemsWrapper div{
+    width: 200px;
 }
+
