@@ -235,7 +235,6 @@ width: 450px;
 
 .forthHeading {
     position: relative;
-    margin-bottom: 40px;
 }
 #forthimg_1{
     position: absolute;
@@ -244,14 +243,23 @@ width: 450px;
 }
 #forthimg_2{
     position: absolute;
-    bottom: Opx;
+    bottom: -40px;
     right:0%;
+}
+.question{
+    width:700px;
+    margin: 10px auto;
 }
 .question h1{
     text-align: center;
-    font-size: bolder;
+    font-size: bolder;  
 }
 
+.plus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .fifthHeading {
     display: flex;
     justify-content: center;
@@ -261,8 +269,7 @@ width: 450px;
     position: relative;
     flex-direction: column;
     align-items: center;
-    
-    
+
 }
 
 .fifthHeading h1 {
@@ -289,15 +296,11 @@ width: 450px;
     position: absolute;
     top: Opx;
     left:0%;
-
-
 }
 #fifthImg_2 {
     position: absolute;
     bottom: 0px;
     right:0%;
-    
-
 }
 
 .sixHeading {
@@ -306,12 +309,10 @@ width: 450px;
 
 .footerItemsWrapper{
     display:flex;
-    justify-content:flex-start;
-    align-items: flex-start;
+    justify-content:space-between;
+    align-items:flex-start;
     flex-wrap: wrap;
-    margin-left: 100px;
-    
-    
+    margin-left: 100px; 
 }
 
 .footerItemsWrapper div{
